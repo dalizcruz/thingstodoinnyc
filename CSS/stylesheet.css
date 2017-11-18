@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    background:#B4D2E7;
+    /*background-color: rgba(180,210,231,.50);*/
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo-image {
+    width:100px;
+    height:auto;
+}
+    
+nav {
+    display: flex;
+    justify-content: space-around;
+    background:  #B4D2E7;
+    padding: 7px 15px;
+    font-size: 18px;
+    align-items: flex-end;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 0px 0px 700px;
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+nav a {
+    color: #4a1275;
+    text-decoration: none;
+    text-align: right;
+    }
+
+.banner {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/nyc_banner3.jpeg");
+    background-size: cover;
+    background-position: top;
+    font-family: 'Pacifico', cursive;
+}
+
+.banner h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    opacity: .85;
+    font-size: 80px;
+    padding: 70px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+        
+.col {
+    padding: 16px;
+    width: 50%;
+}
+
+.rowtwo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coltwo {
+    padding: 16px;
+    width: 50%;
+}
+
+.body h1 {
+    color:#F8F8F8;
+    text-align:center;
+}
+
+.category-image {
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top;
+}
+
+.footer {
+    padding-top: 15px;
+    /*height: 120px;*/
+    background-color: rgba(7, 2, 66, .75);
+    color: #F8F8F8;
+}
+
+.footer p {
+    text-align: center;
+    line-height: 1.0;
+}
+
+.font {
+    font-family: 'Pacifico', cursive;
+}
+
+.sightseeingbanner {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/sightseeing.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.sightseeingbanner h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    opacity: .85;
+    font-size: 80px;
+    padding: 70px;
+}
+
+.banner-eat {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/restaurant3.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Pacifico', cursive;
+}
+.banner-eat h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    opacity: .85;
+    font-size: 80px;
+    padding: 70px;
+}
+
+.shop-banner {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/shop-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.shop-banner h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    opacity: .85;
+    font-size: 80px;
+    padding: 70px;
+}
+
+.intro {
+    text-align: center;
+    padding: 16px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+.columnimage {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.banner-entertainment {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/entbanner.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.banner-entertainment h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    opacity: .85;
+    font-size: 80px;
+    padding: 70px;
+}
+
+#title {
+    font-style: italic;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
